@@ -1,3 +1,3 @@
-# Mini site em HTML para Portfolio A1
+# Mini site for Portfolio A1
 
-* Projeto desenvolvido por: Weslley Ferreira Félix
+* Developed by: Weslley Félix
