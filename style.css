@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&family=VT323&display=swap');
-* {
+*{
     margin: 0;
     padding: 0;
+    
 }
+body {
+    background: url("img/background1.jpg") no-repeat
+    center center;
+    background-size:cover;
+    height: 250vh; 
+    
 
+}
 a {
     color: #fff;
     text-decoration: none;
@@ -27,13 +35,6 @@ nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #242424;
     height: 8vh;
-}
-
-main {
-    background: url("img/background1.jpg") no-repeat
-    center center;
-    background-size: cover;
-    height: 92vh;
 }
 
 .menu {
@@ -92,8 +93,14 @@ section .filter-card{
 
 .title-wrapper-catalog {
     margin-top: 100px;
+    display:flex;
+    font-size: 40px;
+    flex-direction: column;
+    align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    color: white;
+    
 }
 
 section .card-wrapper{
@@ -116,6 +123,9 @@ section .card-item{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .card-item button{
@@ -137,3 +147,17 @@ section .card-item{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.main-footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 200px;
+}
+.main-footer .logo1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
